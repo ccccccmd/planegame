@@ -7,6 +7,6 @@ class Hello {
         return (this.name + "__" + this.age);
     }
 }
-var h = new Hello("ccccccmd", "xxxx");
+var h = new Hello("ccccccmd", 18);
 document.body.innerHTML = h.sayhello();
 //# sourceMappingURL=hello.js.map

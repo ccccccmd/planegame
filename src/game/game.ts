@@ -71,7 +71,7 @@ class Game {
         Utils.log(this.fps.toString())
         // events
         var g = this
-        var actions = g.actions;
+     
         for (let k in g.actions) {
             if (g.keydowns[k]) {
                 // 如果按键被按下, 调用注册的 action
